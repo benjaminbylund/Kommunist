@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+	label{
+		display: block;
+	}
+	</style>
+	<title></title>
+</head>
+<body>
+<main>
+	<form action="http://172.20.0.215/~jens/kommun/anslagstavla" method="post">
+	<label>Title: </label>
+  		<input type="text" name="Title" value="">
+	<label>Organ: </label>
+  		<input type="text" name="Organ" value="">
+	<label>Styrelse / Ansvarig: </label>
+  		<input type="text" name="Styrelse" value="">
+	<label>Datum: </label> 	
+ 		<input type="date" id="pubdate" name="pubdate">
+	<label>Uppsättning </label>
+  		<input type="text" name="Uppsättning" value="">
+   	<label>Förvaringsplats: </label>
+  		<input type="text" name="Förvaringsplats" value="">
+  	<br><br>
+  <textarea>beskrivning </textarea>
+
+<input type="submit" value="Submit PDF">
+
+</form> 
+</main>
+</body>
+</html>
